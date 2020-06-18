@@ -12,7 +12,7 @@ The service has been tested on:
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
 
-As I test more platforms, I will update the results.
+As I test the unit on more platforms, I will update this list.
 
 
 **Instructions**
