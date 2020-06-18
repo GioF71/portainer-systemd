@@ -5,14 +5,14 @@ A simple auto-updating systemd unit to run Portainer
 
 **Prerequisites**
 
-You need to have docker up and running.
+You need to have docker up and running on a linux machine running systemd.
 The service has been tested on:
 
  - Rasperry Pi 3 running Raspian Buster
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
 
-As I test more platform, I will report the results here.
+As I test more platforms, I will update the results.
 
 
 **Instructions**
