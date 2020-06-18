@@ -1,6 +1,6 @@
 # portainer-systemd
 
-A simple auto-updating systemd unit to run Portainer
+A simple auto-updating systemd unit to run a local instance of Portainer on your host.
 
 
 **Prerequisites**
@@ -36,7 +36,7 @@ You can see if everything is running by running:
 
 `systemctl status portainer`
 
-If everything went fine, systemd will report something like "Active: active (running)" Now you can just go to your brower at the URL
+If everything went fine, systemd will report something like "Active: active (running)" Now you can just go to your brower at the URL:
 
     http://your-host:9000
 
