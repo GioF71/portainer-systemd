@@ -2,7 +2,9 @@
 
 A simple auto-updating systemd unit to run Portainer
 
+
 **Prerequisites** 
+
 You need to have docker up and running.
 The service has been tested on:
 
@@ -12,6 +14,7 @@ The service has been tested on:
 
 As I test more platform, I will report the results here.
 
+
 **Instructions**
 
 Just copy the service file to /etc/systemd/system/portainer.service, then run:
@@ -20,7 +23,9 @@ Just copy the service file to /etc/systemd/system/portainer.service, then run:
 `sudo systemctl enable portainer`
 `sudo systemctl start portainer`
 
+
 **Usage**
+
 You can see if everything is running by running:
 
 `systemctl status portainer`
