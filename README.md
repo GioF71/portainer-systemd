@@ -3,28 +3,31 @@
 A simple auto-updating systemd unit to run Portainer
 
 
-**Prerequisites** 
+**Prerequisites**
 
 You need to have docker up and running.
 The service has been tested on:
 
  - Rasperry Pi 3 running Raspian Buster
- - Debian Buster (x84_64) 
- - Ubuntu 18.04 (x84_64) 
+ - Debian Buster (x84_64)
+ - Ubuntu 18.04 (x84_64)
 
 As I test more platform, I will report the results here.
 
 
 **Instructions**
 
-Just copy the service file to /etc/systemd/system/portainer.service, then run:
+Just copy the portainer.service file to /etc/systemd/system/portainer.service:
+
+`sudo cp portainer.service /etc/systemd/system/portainer.service`
+
+then run:
 
 `sudo systemctl daemon-reload`
 
 `sudo systemctl enable portainer`
 
 `sudo systemctl start portainer`
-
 
 
 **Usage**
