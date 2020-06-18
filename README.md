@@ -8,7 +8,7 @@ A simple auto-updating systemd unit to run a local instance of Portainer on your
 You need to have docker up and running on a linux machine running systemd.
 The service has been tested on:
 
- - Rasperry Pi 3 running Raspian Buster
+ - Raspberry Pi 3 running Raspian Buster
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
 
