@@ -20,8 +20,11 @@ As I test more platform, I will report the results here.
 Just copy the service file to /etc/systemd/system/portainer.service, then run:
 
 `sudo systemctl daemon-reload`
+
 `sudo systemctl enable portainer`
+
 `sudo systemctl start portainer`
+
 
 
 **Usage**
