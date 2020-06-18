@@ -16,17 +16,17 @@ As I test more platform, I will report the results here.
 
 Just copy the service file to /etc/systemd/system/portainer.service, then run:
 
-sudo systemctl daemon-reload
-sudo systemctl enable portainer
-sudo systemctl start portainer
+`sudo systemctl daemon-reload`
+`sudo systemctl enable portainer`
+`sudo systemctl start portainer`
 
 **Usage**
 You can see if everything is running by running:
 
-systemctl status portainer
+`systemctl status portainer`
 
 If everything went fine, systemd will report something like "Active: active (running)" Now you can just go to your brower at the URL
 
-[http://your-host:9000](http://your-host:9000/)
+    http://your-host:9000
 
 Create the admin credentials on the first logon and start using the awesome Portainer.
