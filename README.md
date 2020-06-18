@@ -17,7 +17,7 @@ As I test more platform, I will report the results here.
 
 **Instructions**
 
-Just copy the portainer.service file to /etc/systemd/system/portainer.service:
+From the root directory of this repository, just copy the portainer.service file to /etc/systemd/system/portainer.service:
 
 `sudo cp portainer.service /etc/systemd/system/portainer.service`
 
