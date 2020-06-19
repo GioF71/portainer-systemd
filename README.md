@@ -41,3 +41,10 @@ If everything went fine, systemd will report something like "Active: active (run
     http://your-host:9000
 
 Create the admin credentials on the first logon and start using the awesome Portainer.
+
+
+**Updating**
+
+The latest version of the image will be pull on every start of the service. The container is created on the fly and always recreated. If you need to update to the current version, just restart the service by typing:
+
+`sudo systemctl restart portainer`
