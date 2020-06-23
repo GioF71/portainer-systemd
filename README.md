@@ -32,7 +32,7 @@ then run:
 
 **Usage**
 
-You can see if everything is running by running:
+You can check that the service is running using the following:
 
 `systemctl status portainer`
 
