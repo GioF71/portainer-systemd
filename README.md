@@ -11,6 +11,7 @@ The service has been tested on:
  - Raspberry Pi 3 running Raspian Buster
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
+ - Manjaro
 
 As I test the unit on more platforms, I will update this list.
 
