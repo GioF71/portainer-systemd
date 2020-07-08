@@ -16,7 +16,7 @@ The service has been tested on:
 As I test the unit on more platforms, I will update this list.
 
 
-**Instructions**
+**Manual Installation**
 
 From the root directory of this repository, just copy the portainer.service file to /etc/systemd/system/portainer.service:
 
@@ -30,6 +30,12 @@ then run:
 
 `sudo systemctl start portainer`
 
+
+**Automated Installation**
+
+From the root directory of this repository, just execute the convenience script:
+
+`sudo sh install.sh`
 
 **Usage**
 
