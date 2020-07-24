@@ -20,6 +20,7 @@ The service has been tested on:
  - Manjaro
 
 As I test the unit on more platforms, I will update this list.
+You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd".
 
 
 **Manual Installation**
