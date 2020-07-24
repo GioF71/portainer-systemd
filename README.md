@@ -19,7 +19,7 @@ All of this has been tested on:
  - Raspberry Pi 3/4 running Raspian Buster
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
- - Manjaro
+ - Manjaro (x84_64)
 
 As I test the unit and/or the scripts on more platforms, I will update this list.
 You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd".
