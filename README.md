@@ -69,4 +69,18 @@ Alternatively, just restart the service by typing:
 
 **Installation without systemd**
 
-I have created a convenience script "run.sh" which automates the creation of the Portainer container in restart unless-stopped mode. No need for systemd with this method. I will also add a command which will create a watchtower container, dedicated to auto-updating the portainer container itself.
+I have created a convenience script "run.sh" which automates the creation of the Portainer container in restart unless-stopped mode. No need for systemd with this method.
+Just run:
+
+  `sudo sh run.sh`
+
+This will create the "portainer". It will restart automatically unless you explicitly stop it.
+If you wish to add a container, which will be capable of auto-updating your containers, just running
+
+  `sudo sh run-watchtower.sh`
+
+Please note that watchtower will try to update all of your containers. If you want to limit the containers which will be automatically updated, edit the 'watchtower' container using Portainer, and under "Command and logging", in the texbox "Command", add a space-separated list of the containers you want to auto-update. Just to provide an example, a list could be like the following:
+
+  `portainer syncthing influxdb grafana`
+
+A quick note, you might want to add the "TZ" environment variable according to your timezone. Not mandatory, but this way the watchtower log will present you the timestamps expressed accordingly with your timezone.
