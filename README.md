@@ -3,13 +3,13 @@
 A simple auto-updating systemd unit to run a local instance of Portainer on your host.
 
 
-**Disclaimer**
+# Disclaimer
 
 The simple scripts you can find on this repository have been created with the purpose of automating my own workflow. With multiple little servers around, every little thing that can be automated and can save me some time is helpful. I hope this is helpful for you too.
 Feel free to contact me for issues, improvement requests, etc.
 
 
-**Prerequisites**
+# Prerequisites
 
 You need to have docker up and running on a linux machine running systemd.
 The service has been tested on:
@@ -23,7 +23,7 @@ As I test the unit on more platforms, I will update this list.
 You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd".
 
 
-**Manual Installation**
+# Manual Installation
 
 From the root directory of this repository, just copy the portainer.service file to /etc/systemd/system/portainer.service:
 
@@ -38,7 +38,7 @@ then run:
 `sudo systemctl start portainer`
 
 
-**Automated Installation**
+# Automated Installation
 
 From the root directory of this repository, just execute the convenience script:
 
@@ -68,7 +68,7 @@ Alternatively, just restart the service by typing:
 `sudo systemctl restart portainer`
 
 
-**Installation without systemd**
+# Installation without systemd
 
 I have created a convenience script "run.sh" which automates the creation of the Portainer container in restart unless-stopped mode. No need for systemd with this method.
 Just run:
