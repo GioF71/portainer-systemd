@@ -84,4 +84,5 @@ Please note that watchtower will try to update all of your containers. If you wa
   `portainer syncthing influxdb grafana`
 
 This method (without systemd) eliminates the 'weirdness' of having to stop the portainer container just to trigger its own updating and restart. If you can live with that, the systemd version should work just fine.
+
 A quick note for the "watchtower" container: you might want to add the "TZ" environment variable according to your timezone (mine for example is "Europe/Rome"). Not mandatory, but this way the watchtower log will present you the timestamps expressed accordingly with your timezone.
