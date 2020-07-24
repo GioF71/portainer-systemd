@@ -11,7 +11,7 @@ Feel free to contact me for issues, improvement requests, etc.
 
 ## Prerequisites
 
-You need to have docker up and running on a linux machine
+You need to have docker up and running on a linux machine.
 Unless you choose to use the "Installation without systemd", you obviously need to be running systemd.
 
 All of this has been tested on:
@@ -22,7 +22,7 @@ All of this has been tested on:
  - Manjaro
 
 As I test the unit on more platforms, I will update this list.
-You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd".
+You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd". 
 
 
 ## Manual Installation
