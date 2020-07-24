@@ -73,14 +73,14 @@ Alternatively, just restart the service by typing:
 ## Installation without systemd
 
 I have created a convenience script "run.sh" which automates the creation of the Portainer container in restart unless-stopped mode. No need for systemd with this method.
-Just run:
+From the root directory of this repository, just execute the convenience script:
 
   `sudo sh run.sh`
 
 This will create the "portainer" container for you. Such container will restart automatically unless you explicitly stop it.
 Obviously it will restart on each reboot of your machine.
 
-If you wish to add a container, which will be capable of auto-updating your containers, just run
+If you wish to add a container, which will be capable of auto-updating your containers, just execute the convenience script (always from the root of this repository):
 
   `sudo sh run-watchtower.sh`
 
