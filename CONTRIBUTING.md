@@ -1,6 +1,6 @@
-# Contributing to this project
+# Contributing to portainer-systemd
 
-Thanks for your interest in this project. It is my goal to share what I learned.
+Thanks for your interest in this project. It is my goal to share what I have learned.
 
 ## Getting Started
 
