@@ -5,7 +5,7 @@ A simple auto-updating systemd unit to run a local instance of Portainer on your
 
 **Disclaimer**
 
-The simple scripts you can find on this repository have been created with the purpose to automate my own workflow. With multiple little servers around, every little thing that can be automated and saves me some time is helpful. I hope this is helpful for you too.
+The simple scripts you can find on this repository have been created with the purpose of automating my own workflow. With multiple little servers around, every little thing that can be automated and can save me some time is helpful. I hope this is helpful for you too.
 Feel free to contact me for issues, improvement requests, etc.
 
 
