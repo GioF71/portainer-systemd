@@ -16,7 +16,7 @@ Unless you choose to use the "Installation without systemd", you obviously need 
 
 All of this has been tested on:
 
- - Raspberry Pi 3 running Raspian Buster
+ - Raspberry Pi 3/4 running Raspian Buster
  - Debian Buster (x84_64)
  - Ubuntu 18.04 (x84_64)
  - Manjaro
