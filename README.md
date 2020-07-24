@@ -75,8 +75,10 @@ Just run:
 
   `sudo sh run.sh`
 
-This will create the "portainer". It will restart automatically unless you explicitly stop it.
-If you wish to add a container, which will be capable of auto-updating your containers, just running
+This will create the "portainer" container for you. Such container will restart automatically unless you explicitly stop it.
+Obviously it will restart on each reboot of your machine.
+
+If you wish to add a container, which will be capable of auto-updating your containers, just run
 
   `sudo sh run-watchtower.sh`
 
