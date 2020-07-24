@@ -52,6 +52,10 @@ Create the admin credentials on the first logon and start using the awesome Port
 
 **Updating**
 
-The latest version of the image will be pull on every start of the service. The container is always created on the fly. If you need to update to the current version, just restart the service by typing:
+The latest version of the image will be pull on every start of the service. The container is always created on the fly.
+To update to the latest version of portainer, just login into Portainer itself, and simply stop the "Portainer" container. Systemd will then pull the latest image and recreate the container automatically.
+
+Alternatively, just restart the service by typing:
 
 `sudo systemctl restart portainer`
+ 
