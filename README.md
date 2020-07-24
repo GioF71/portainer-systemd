@@ -47,7 +47,7 @@ From the root directory of this repository, just execute the convenience script:
 `sudo sh install.sh`
 
 
-**Usage**
+## Checking service status with systemd
 
 You can check if the service is running using the following:
 
@@ -60,7 +60,7 @@ If everything went fine, systemd will report something like "Active: active (run
 Create the admin credentials on the first logon and start using the awesome Portainer.
 
 
-**Updating**
+## Updating with systemd
 
 The latest version of the image will be pulled on every start of the service. The container is always recreated on the fly.
 To update to the latest version of portainer, just login into Portainer itself, and simply stop the "portainer" container. Your action will trigger the systemd unit, which will automatically pull the latest image and recreate the container.
