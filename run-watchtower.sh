@@ -8,6 +8,5 @@ docker pull containrrr/watchtower:latest
 docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   --restart unless-stopped \
-  --name watchtower-portainer \
+  --name watchtower \
   containrrr/watchtower
-  
