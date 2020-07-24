@@ -75,15 +75,17 @@ Alternatively, just restart the service by typing:
 I have created a convenience script "run.sh" which automates the creation of the Portainer container in restart unless-stopped mode. No need for systemd with this method.
 From the root directory of this repository, just execute the convenience script:
 
-  `sudo sh run.sh`
+  `sh run.sh`
 
+Please note that if the user you are logged on with does not belong to the docker group, you will need to prepend the command with "sudo".
 This will create the "portainer" container for you. Such container will restart automatically unless you explicitly stop it.
 Obviously it will restart on each reboot of your machine.
 
 If you wish to add a container, which will be capable of auto-updating your containers, just execute the convenience script (always from the root of this repository):
 
-  `sudo sh run-watchtower.sh`
+  `sh run-watchtower.sh`
 
+Again, you might need to prepend "sudo" if your user does not belong to the "docker" group.
 Please note that watchtower will try to update all of your containers. If you want to limit the containers which will be automatically updated, edit the 'watchtower' container using Portainer, and under "Command and logging", in the texbox "Command", add a space-separated list of the containers you want to auto-update. Just to provide an example, a list could be like the following:
 
   `portainer syncthing influxdb grafana`
