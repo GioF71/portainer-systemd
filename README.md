@@ -15,7 +15,7 @@ Unless you choose to use the "Installation without systemd", you obviously need 
 All of this has been tested on:
 
 - Raspberry Pi 3/4 running Raspbian Buster
-- Debian Buster (x84_64)
+- Debian 10 Buster (x84_64)
 - Ubuntu 18.04 Bionic (x84_64)
 - Linux Mint 20 Ulyana (x86_64)
 - Manjaro (x84_64)
