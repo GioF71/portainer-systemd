@@ -2,12 +2,10 @@
 
 A simple auto-updating systemd unit to run a local instance of Portainer on your host.
 
-
 ## Disclaimer
 
 The simple scripts you can find on this repository have been created with the purpose of automating my own workflow. With multiple little servers around, every little thing that can be automated and can save me some time is helpful. I hope this is helpful for you too.
 Feel free to contact me for issues, improvement requests, etc.
-
 
 ## Prerequisites
 
@@ -16,14 +14,14 @@ Unless you choose to use the "Installation without systemd", you obviously need 
 
 All of this has been tested on:
 
- - Raspberry Pi 3/4 running Raspbian Buster
- - Debian Buster (x84_64)
- - Ubuntu 18.04 (x84_64)
- - Manjaro (x84_64)
+- Raspberry Pi 3/4 running Raspbian Buster
+- Debian Buster (x84_64)
+- Ubuntu 18.04 Bionic (x84_64)
+- Linux Mint 20 Ulyana (x86_64)
+- Manjaro (x84_64)
 
 As I test the unit and/or the scripts on more platforms, I will update this list.
 You can alternatively execute the commands listed under "Manual Installation", "Automated Installation" or "Installation without systemd".
-
 
 ## Manual Installation
 
@@ -39,13 +37,11 @@ then run:
 
 `sudo systemctl start portainer`
 
-
 ## Automated Installation
 
 From the root directory of this repository, just execute the convenience script:
 
 `sudo sh install.sh`
-
 
 ## Checking service status with systemd
 
@@ -59,7 +55,6 @@ If everything went fine, systemd will report something like "Active: active (run
 
 Create the admin credentials on the first logon and start using the awesome Portainer.
 
-
 ## Updating with systemd
 
 The latest version of the image will be pulled on every start of the service. The container is always recreated on the fly.
@@ -68,7 +63,6 @@ To update to the latest version of portainer, just login into Portainer itself, 
 Alternatively, just restart the service by typing:
 
 `sudo systemctl restart portainer`
-
 
 ## Installation without systemd
 
