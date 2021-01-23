@@ -13,4 +13,4 @@ docker run -d \
   -v portainer_data:/data \
   --restart unless-stopped \
   --name portainer \
-  portainer/portainer-ce
+  portainer/portainer-ce:latest
