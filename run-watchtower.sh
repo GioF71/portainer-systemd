@@ -1,9 +1,9 @@
 #!/bin/sh
 
+docker pull containrrr/watchtower:latest
+
 docker stop watchtower
 docker rm watchtower
-
-docker pull containrrr/watchtower:latest
 
 docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
